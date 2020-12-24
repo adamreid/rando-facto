@@ -1,0 +1,8 @@
+[flake8]
+select = S,B,B9,BLK,C,E,F,I,W
+max-complexity = 10
+max-line-length = 80
+application-import-names = rando_facto, tests
+import-order-style = google
+ignore = E203,E501,W503
+per-file-ignores = tests/*:S101
